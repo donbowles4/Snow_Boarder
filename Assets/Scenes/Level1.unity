@@ -400,7 +400,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -6016,7 +6016,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 1
+  playOnAwake: 0
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -10821,6 +10821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 1
+  finishEffect: {fileID: 561864966}
 --- !u!61 &744401789
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11151,3 +11152,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fltLoadDelay: 0.5
+  crashEffect: {fileID: 488150276}
