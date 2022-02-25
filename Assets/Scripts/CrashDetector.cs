@@ -12,6 +12,7 @@ void OnTriggerEnter2D(Collider2D other)
 {
     if(other.tag == "Ground")
     {
+        FindObjectOfType<PlayerController>().DisableControls();
         crashEffect.Play();
         GetComponent<AudioSource>().PlayOneShot(crashsfx);
         Invoke("ReloadScene", fltLoadDelay);
